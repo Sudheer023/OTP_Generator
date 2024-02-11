@@ -1,0 +1,62 @@
+/* Styles for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #cf3d3d;
+    border-radius: 5px;
+    background-color: #333;
+    width: 50%;
+
+}
+
+h2{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 16px;
+    color: #d3c4c4;
+    margin-bottom: 10px;
+}
+
+/* Styles for the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;
+}
+#clear{
+    background-color: cornflowerblue;
+}
+#clear:hover {
+    background-color: #0056b3;
+}
+button{
+    margin-bottom: 10px;
+}
+
+*{
+    /* padding: 0%;
+    margin: 0px; */
+    box-sizing: border-box;
+}
+#number{
+    background-color: #bc1717;
+    display: none;
+}
